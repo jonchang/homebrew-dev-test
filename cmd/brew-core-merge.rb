@@ -12,7 +12,7 @@ module Homebrew
   end
 
   def core_merge
-    core_merge_args.parase
+    core_merge_args.parse
 
     ohai "Dry run" if args.dry_run?
   end
