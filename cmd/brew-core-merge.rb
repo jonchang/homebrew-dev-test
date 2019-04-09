@@ -44,7 +44,7 @@ module Homebrew
 
     ohai "Now run:"
     puts "brew pull --bottle #{ready_prs.join(' ')}"
-    puts "git log -u origin/master"
+    puts "git diff origin/master"
   end
 end
 
