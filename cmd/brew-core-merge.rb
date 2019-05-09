@@ -1,4 +1,4 @@
-require "cli_parser"
+require "cli/parser"
 require "utils/github"
 require "tap"
 
